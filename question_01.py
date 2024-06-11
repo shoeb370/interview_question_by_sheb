@@ -1,3 +1,14 @@
+"""
+
+Given an array of numbers `nums` and an integer `target`, return indices of any two numbers from the list such that they add up to `target`.
+
+You may assume the input will have exactly one solution, and you cannot use the same element twice.
+
+Example: nums = [2, 7, 11, 15], target = 9
+
+Return: [0, 1]
+
+"""
 def two_sum(nums, target):
     # Initialize an empty dictionary to store indices of elements
     index_map = {}
